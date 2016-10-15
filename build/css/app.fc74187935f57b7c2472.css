@@ -162,6 +162,16 @@ table {
   }
 }
 
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}
+
 body {
   text-align: center;
 }
@@ -291,4 +301,4 @@ body {
   height: 100%;
   animation: spin 2s linear infinite;
 }
-/*# sourceMappingURL=app.1a61369325a011643d01.css.map*/
+/*# sourceMappingURL=app.fc74187935f57b7c2472.css.map*/
